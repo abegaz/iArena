@@ -1,6 +1,6 @@
 var signup = $("[name = signupform]");
 
-function validatemyform() {
+function validateform() {
     if ($('#password').val() === $('#confirmpassword').val()) {
         $('#pwerr').html("correct");
         signup.attr('action', 'PHPScripts/SignUpScript.php')
