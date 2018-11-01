@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca69c5fd-9686-4a27-b3b7-cdeadc77445a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iArenaFile/PHPScripts/SignUpScript.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/iArenaFile/loginiArena.html" beforeDir="false" afterPath="$PROJECT_DIR$/iArenaFile/loginiArena.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -27,7 +25,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/iArenaFile/SignUpScript.php">
+        <entry file="file://$PROJECT_DIR$/iArenaFile/PHPScripts/SignUpScript.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
               <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
@@ -47,7 +45,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/iArenaFile/loginiArena.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state>
               <caret line="602" column="52" lean-forward="true" selection-start-line="602" selection-start-column="52" selection-end-line="602" selection-end-column="52" />
             </state>
           </provider>
@@ -67,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="width" value="1302" />
     <option name="height" value="1372" />
@@ -111,6 +109,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp2\htdocs\iArena\iArenaFile\PHPScripts" />
       <recent name="C:\xampp2\htdocs\iArena\iArenaFile" />
       <recent name="C:\xampp2\htdocs\iArena" />
     </key>
@@ -137,16 +136,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541079128199</updated>
-      <workItem from="1541079131696" duration="1546000" />
+      <workItem from="1541079131696" duration="1706000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1546000" />
+    <option name="totallyTimeSpent" value="1706000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12171838" />
@@ -171,7 +169,7 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/iArenaFile/SignUpScript.php">
+    <entry file="file://$PROJECT_DIR$/iArenaFile/PHPScripts/SignUpScript.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
@@ -194,7 +192,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/iArenaFile/loginiArena.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state>
           <caret line="602" column="52" lean-forward="true" selection-start-line="602" selection-start-column="52" selection-end-line="602" selection-end-column="52" />
         </state>
       </provider>
