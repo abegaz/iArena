@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca69c5fd-9686-4a27-b3b7-cdeadc77445a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/iArenaFile/js/jquery-3.3.1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iArenaFile/js/FromHandling.js" beforeDir="false" afterPath="$PROJECT_DIR$/iArenaFile/js/FromHandling.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/iArenaFile/loginiArena.html" beforeDir="false" afterPath="$PROJECT_DIR$/iArenaFile/loginiArena.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -29,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/iArenaFile/loginiArena.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="615" column="13" lean-forward="true" selection-start-line="615" selection-start-column="13" selection-end-line="615" selection-end-column="13" />
+            <state relative-caret-position="232">
+              <caret line="601" column="17" lean-forward="true" selection-start-line="601" selection-start-column="17" selection-end-line="601" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -38,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/iArenaFile/js/FromHandling.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+            <state relative-caret-position="34">
+              <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -149,12 +148,12 @@
       <option name="presentableId" value="Default" />
       <updated>1541079128199</updated>
       <workItem from="1541079131696" duration="1796000" />
-      <workItem from="1541096962352" duration="5496000" />
+      <workItem from="1541096962352" duration="5930000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7292000" />
+    <option name="totallyTimeSpent" value="7726000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
@@ -209,15 +208,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/iArenaFile/js/FromHandling.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        <state relative-caret-position="34">
+          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/iArenaFile/loginiArena.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="615" column="13" lean-forward="true" selection-start-line="615" selection-start-column="13" selection-end-line="615" selection-end-column="13" />
+        <state relative-caret-position="232">
+          <caret line="601" column="17" lean-forward="true" selection-start-line="601" selection-start-column="17" selection-end-line="601" selection-end-column="17" />
         </state>
       </provider>
     </entry>
