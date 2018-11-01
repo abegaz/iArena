@@ -546,6 +546,16 @@ button {
 		color: white;
 	}
 
+  #submitbutton {
+    background-color:#52bad5 ;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+
 </style>
 <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
 <script>var __adobewebfontsappname__="dreamweaver"</script>
@@ -586,20 +596,23 @@ button {
       <label for="pswr"><b>Password</b></label>
       <input type="password" placeholder="Enter Password" name="pswr" required>
       <button type="submit">Login</button>
-		<header>
-		<center><h1 id="acc">NEW TO iARENA? CREATE ACCOUNT BELOW!</h1></center>
-		</header>
-		<label for="fname"><b>First Name</b></label>
-      <input type="text" placeholder="Enter First Name" name="fname" required>
-		<label for="lname"><b>Last Name</b></label>
-      <input type="text" placeholder="Enter Last Name" name="lname" required>
-		<label for="uname"><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" required>
-      <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
-		
-        
-      <button type="submit">Create Account</button>
+      <form method = "post" action = SignUpScript.php>
+        <header>
+          <center><h1 id="acc">NEW TO iARENA? CREATE ACCOUNT BELOW!</h1></center>
+        </header>
+        <label for="fname"><b>First Name</b></label>
+        <input type="text" placeholder="Enter First Name" name="firstname" required>
+        <label for="lname"><b>Last Name</b></label>
+        <input type="text" placeholder="Enter Last Name" name="lastname" required>
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="username" required>
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="password" required>
+
+
+
+        <input type="submit" id="submitbutton" value="Create Account"></input>
+      </form>
 
 </div>
 
