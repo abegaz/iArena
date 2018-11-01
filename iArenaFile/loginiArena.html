@@ -596,25 +596,28 @@ button {
       <label for="pswr"><b>Password</b></label>
       <input type="password" placeholder="Enter Password" name="pswr" required>
       <button type="submit">Login</button>
-      <form method = "post" action = PHPScripts/SignUpScript.php>
+      <form method = "post" action = "" name="signupform" onsubmit="return validatemyform();">
         <header>
           <center><h1 id="acc">NEW TO iARENA? CREATE ACCOUNT BELOW!</h1></center>
         </header>
-        <label for="fname"><b>First Name</b></label>
-        <input type="text" placeholder="Enter First Name" name="firstname" required>
-        <label for="lname"><b>Last Name</b></label>
-        <input type="text" placeholder="Enter Last Name" name="lastname" required>
-        <label for="uname"><b>Username</b></label>
-        <input type="text" placeholder="Enter Username" name="username" required>
-        <label for="psw"><b>Password</b></label>
-        <input type="password" placeholder="Enter Password" name="password" required>
+        <label for="firstname"><b>First Name</b></label>
+        <input type="text" placeholder="Enter First Name" name="firstname" id="firstname" required>
+        <label for="lastname"><b>Last Name</b></label>
+        <input type="text" placeholder="Enter Last Name" name="lastname" id="lastname" required>
+        <label for="username"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="username" id="username" required>
+        <label for="password"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="password" id="password" required>
+        <label for="confirmpassword">Confirm Password </label>
+        <input type="password" placeholder="Confirm Password" name="confirmpassword" id="confirmpassword" required>
 
 
-
-        <input type="submit" id="submitbutton" value="Create Account"></input>
+        <input type="submit" id="submitbutton" value="Create Account">
       </form>
+      <span id="pwerr"></span>
 
 </div>
+    <button id="test">test</button>
 
   </section>
   
@@ -622,5 +625,8 @@ button {
   <div class="copyright">&copy;2018 <strong>- iarena</strong></div>
 </div>
 <!-- Main Container Ends -->
+
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/FromHandling.js"></script>
 </body>
 </html>
