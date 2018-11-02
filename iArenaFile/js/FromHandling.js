@@ -6,19 +6,18 @@ function validateform() {
         $('#pwerr').html("correct");
         signup.attr('action', 'PHPScripts/SignUpScript.php')
         return true;
-    }
-    else {
+    } else {
         $('#pwerr').html("passwords do not match");
         return false;
     }
 }
 
-$('#test').on('click', function() {
+$('#test').on('click', function () {
     $.ajax({
         type: "POST",
         url: "js/DBSearch.php",
         data: "",
-        success: function(result){
+        success: function (result) {
             console.log(result);
             temp = result;
             if (temp = false) {
@@ -26,9 +25,9 @@ $('#test').on('click', function() {
             }
 
         },
-        error: function(){
+        error: function () {
             alert("error");
         }
-});
+    });
 });
 
