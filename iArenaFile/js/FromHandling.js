@@ -15,12 +15,12 @@ function validateform() {
 $('#test').on('click', function () {
     $.ajax({
         type: "POST",
-        url: "js/DBSearch.php",
+        url: "PHPScripts/DBSearch.php",
         data: "",
         success: function (result) {
             console.log(result);
             temp = result;
-            if (temp = false) {
+            if (temp = true) {
                 console.log("if statement works")
             }
 
