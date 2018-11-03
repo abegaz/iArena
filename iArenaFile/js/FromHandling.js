@@ -1,27 +1,30 @@
 var signup = $("[name = signupform]");
-var temp;
+var submitbutton = document.getElementById("submitbutton");
+var testcase = false;
+var usernamelookup = false;
 
-function validateform() {
-    if ($('#password').val() === $('#confirmpassword').val()) {
-        $('#pwerr').html("correct");
-        signup.attr('action', 'PHPScripts/SignUpScript.php')
-        return true;
-    } else {
-        $('#pwerr').html("passwords do not match");
-        return false;
-    }
-}
+submitbutton.disabled = true;
 
-$('#test').on('click', function () {
+function usernamesearch() {
+    var myinput = $("#username").val();
+    console.log(myinput);
     $.ajax({
         type: "POST",
         url: "PHPScripts/DBSearch.php",
-        data: "",
+        data: {myinput},
         success: function (result) {
             console.log(result);
             temp = result;
-            if (temp = true) {
-                console.log("if statement works")
+            console.log(temp);
+            if (temp === "true") {
+                console.log("database contains this usertname");
+                usernamelookup = true;
+                $('#pwerr').html("username already in use");
+            }
+            else if (temp === "false") {
+                console.log("database does not contain this username");
+                usernamelookup = false;
+                submitbutton.disabled = false;
             }
 
         },
@@ -29,5 +32,21 @@ $('#test').on('click', function () {
             alert("error");
         }
     });
-});
+}
 
+function validateform() {
+    if (usernamelookup === false) {
+        if ($('#password').val() === $('#confirmpassword').val()) {
+            $('#pwerr').html("correct");
+
+            signup.attr('action', 'PHPScripts/SignUpScript.php')
+            return true;
+        } else {
+            $('#pwerr').html("passwords do not match");
+            return false;
+        }
+    }
+    else {
+        return false;
+    }
+}
