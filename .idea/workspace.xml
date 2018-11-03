@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ca69c5fd-9686-4a27-b3b7-cdeadc77445a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iArenaFile/PHPScripts/DBSearch.php" beforeDir="false" afterPath="$PROJECT_DIR$/iArenaFile/PHPScripts/DBSearch.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iArenaFile/PHPScripts/SignUpScript.php" beforeDir="false" afterPath="$PROJECT_DIR$/iArenaFile/PHPScripts/SignUpScript.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/iArenaFile/js/FromHandling.js" beforeDir="false" afterPath="$PROJECT_DIR$/iArenaFile/js/FromHandling.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/iArenaFile/loginiArena.html" beforeDir="false" afterPath="$PROJECT_DIR$/iArenaFile/loginiArena.html" afterDir="false" />
     </list>
@@ -21,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/iArenaFile/PHPScripts/SignUpScript.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+            <state relative-caret-position="300">
+              <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -39,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/iArenaFile/loginiArena.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="680" column="125" selection-start-line="680" selection-start-column="125" selection-end-line="680" selection-end-column="125" />
+            <state relative-caret-position="283">
+              <caret line="693" selection-start-line="693" selection-end-line="693" />
             </state>
           </provider>
         </entry>
@@ -48,8 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/iArenaFile/js/FromHandling.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+            <state relative-caret-position="408">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -78,10 +78,10 @@
         <option value="$PROJECT_DIR$/iArenaFile/PHPScripts/SignInScript.php" />
         <option value="$PROJECT_DIR$/iArenaFile/FromHandling.js" />
         <option value="$PROJECT_DIR$/iArenaFile/js/DBSearch.php" />
-        <option value="$PROJECT_DIR$/iArenaFile/PHPScripts/SignUpScript.php" />
-        <option value="$PROJECT_DIR$/iArenaFile/loginiArena.html" />
         <option value="$PROJECT_DIR$/iArenaFile/PHPScripts/DBSearch.php" />
         <option value="$PROJECT_DIR$/iArenaFile/js/FromHandling.js" />
+        <option value="$PROJECT_DIR$/iArenaFile/loginiArena.html" />
+        <option value="$PROJECT_DIR$/iArenaFile/PHPScripts/SignUpScript.php" />
       </list>
     </option>
   </component>
@@ -173,14 +173,16 @@
       <workItem from="1541115208593" duration="5575000" />
       <workItem from="1541191006393" duration="2949000" />
       <workItem from="1541201544397" duration="2181000" />
+      <workItem from="1541211830389" duration="1899000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26325000" />
+    <option name="totallyTimeSpent" value="28224000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.12012729" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -246,15 +248,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/iArenaFile/js/FromHandling.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        <state relative-caret-position="408">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/iArenaFile/loginiArena.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="680" column="125" selection-start-line="680" selection-start-column="125" selection-end-line="680" selection-end-column="125" />
+        <state relative-caret-position="283">
+          <caret line="693" selection-start-line="693" selection-end-line="693" />
         </state>
       </provider>
     </entry>
@@ -267,8 +269,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/iArenaFile/PHPScripts/SignUpScript.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        <state relative-caret-position="300">
+          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
         </state>
       </provider>
     </entry>
