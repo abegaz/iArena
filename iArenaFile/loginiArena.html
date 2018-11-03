@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Light Theme</title>
 	<link href="singlePageTemplate.css" rel="stylesheet" type="text/css">
+	<link href="css/main.css" rel="stylesheet" type="text/css">
 	<style type="text/css">
 		@charset "UTF-8";
 		/* Body */
@@ -615,7 +616,7 @@
 			color: white;
 		}
 
-		#submitbutton {
+		.submitbutton {
 			background-color: #52bad5;
 			color: white;
 			padding: 14px 20px;
@@ -663,11 +664,13 @@
 			</header>
 
 			<div class="container">
+				<form>
 				<label for="unamer"><b>Username</b></label>
-				<input type="text" placeholder="Enter Username" name="unamer" required>
+				<input type="text" placeholder="Enter Username" name="unamer" id="unamer" required>
 				<label for="pswr"><b>Password</b></label>
-				<input type="password" placeholder="Enter Password" name="pswr" required>
-				<button type="submit">Login</button>
+				<input type="password" placeholder="Enter Password" name="pswr" id="pswr" required>
+				<input type="submit" class="submitbutton" value="Login">
+				</form>
 
 				<form method="post" action="" name="signupform" onsubmit="return validateform()">
 					<header>
@@ -686,9 +689,9 @@
 					       required>
 
 
-					<input type="submit" id="submitbutton" value="Create Account">
+					<input type="submit" class="submitbutton" value="Create Account">
 				</form>
-				<span id="pwerr"></span><span id="usrnameerr"></span>
+				<span id="pwerr" class="alert" ></span>&nbsp;&nbsp;<span id="usrnameerr" class="alert" ></span>
 
 			</div>
 
