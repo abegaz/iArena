@@ -664,15 +664,16 @@
 			</header>
 
 			<div class="container">
-				<form>
-				<label for="unamer"><b>Username</b></label>
-				<input type="text" placeholder="Enter Username" name="unamer" id="unamer" required>
-				<label for="pswr"><b>Password</b></label>
-				<input type="password" placeholder="Enter Password" name="pswr" id="pswr" required>
-				<input type="submit" class="submitbutton" value="Login">
+				<form name="signinform" id="signinform">
+					<label for="unamer"><b>Username</b></label>
+					<input type="text" placeholder="Enter Username" name="unamer" id="unamer" required>
+					<label for="pswr"><b>Password</b></label>
+					<input type="password" placeholder="Enter Password" name="pswr" id="pswr" required>
+					<input type="submit" class="submitbutton" value="Login" id="loginbutton" onclick="loginsearch()">
 				</form>
+				<span id="signinerr" class="alert"></span>
 
-				<form method="post" action="" name="signupform" onsubmit="return validateform()">
+				<form method="post" action="" name="signupform" onsubmit="return ValidateSignUpForm()">
 					<header>
 						<center><h1 id="acc">NEW TO iARENA? CREATE ACCOUNT BELOW!</h1></center>
 					</header>
@@ -681,7 +682,8 @@
 					<label for="lastname"><b>Last Name</b></label>
 					<input type="text" placeholder="Enter Last Name" name="lastname" id="lastname" required>
 					<label for="username"><b>Username</b></label>
-					<input type="text" placeholder="Enter Username" name="username" id="username" onchange="usernamesearch()" required>
+					<input type="text" placeholder="Enter Username" name="username" id="username"
+					       onchange="usernamesearch()" required>
 					<label for="password"><b>Password</b></label>
 					<input type="password" placeholder="Enter Password" name="password" id="password" required>
 					<label for="confirmpassword">Confirm Password </label>
@@ -691,7 +693,7 @@
 
 					<input type="submit" class="submitbutton" value="Create Account">
 				</form>
-				<span id="pwerr" class="alert" ></span>&nbsp;&nbsp;<span id="usrnameerr" class="alert" ></span>
+				<span id="pwerr" class="alert"></span>&nbsp;&nbsp;<span id="usrnameerr" class="alert"></span>
 
 			</div>
 
