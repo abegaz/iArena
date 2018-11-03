@@ -51,6 +51,7 @@ function loginsearch() {
             if (temp === "true") {
                 console.log("Sign in success");
                 signintest = true;
+                $('#signinerr').html("");
             } else if (temp === "false") {
                 console.log("Sign in fail");
                 signintest = false;
