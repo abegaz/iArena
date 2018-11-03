@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca69c5fd-9686-4a27-b3b7-cdeadc77445a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/iArenaFile/PHPScripts/SignInScript.php" beforeDir="false" afterPath="$PROJECT_DIR$/iArenaFile/PHPScripts/SignInScript.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/iArenaFile/js/FromHandling.js" beforeDir="false" afterPath="$PROJECT_DIR$/iArenaFile/js/FromHandling.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iArenaFile/loginiArena.html" beforeDir="false" afterPath="$PROJECT_DIR$/iArenaFile/loginiArena.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,7 +24,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/iArenaFile/loginiArena.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
@@ -48,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/iArenaFile/js/FromHandling.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1088">
-              <caret line="64" column="1" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+            <state relative-caret-position="204">
+              <caret line="53" column="41" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -185,12 +183,12 @@
       <workItem from="1541115208593" duration="5575000" />
       <workItem from="1541191006393" duration="2949000" />
       <workItem from="1541201544397" duration="2181000" />
-      <workItem from="1541211830389" duration="10075000" />
+      <workItem from="1541211830389" duration="10175000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36400000" />
+    <option name="totallyTimeSpent" value="36500000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
@@ -272,13 +270,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iArenaFile/js/FromHandling.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="64" column="1" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/iArenaFile/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -294,6 +285,13 @@
             <element signature="e#13538#13544#1" expanded="true" />
             <element signature="e#13544#13550#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iArenaFile/js/FromHandling.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="53" column="41" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
         </state>
       </provider>
     </entry>
