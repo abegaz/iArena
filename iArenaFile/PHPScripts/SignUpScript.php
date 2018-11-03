@@ -30,6 +30,6 @@ if (mysqli_connect_error()) {
     $conn->close();
 }
 
-// header('Location: index.html');
+ header('Location: ../loginiArena.html');
 exit;
 ?>
