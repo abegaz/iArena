@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca69c5fd-9686-4a27-b3b7-cdeadc77445a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iArenaFile/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/iArenaFile/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/iArenaFile/js/FromHandling.js" beforeDir="false" afterPath="$PROJECT_DIR$/iArenaFile/js/FromHandling.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iArenaFile/loginiArena.html" beforeDir="false" afterPath="$PROJECT_DIR$/iArenaFile/loginiArena.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,10 +19,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/iArenaFile/PHPScripts/SignInScript.php">
+        <entry file="file://$PROJECT_DIR$/iArenaFile/PHPScripts/SignUpScript.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="221">
+              <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -27,12 +30,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/iArenaFile/loginiArena.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="671" column="110" selection-start-line="671" selection-start-column="110" selection-end-line="671" selection-end-column="110" />
-              <folding>
-                <element signature="e#13538#13544#1" expanded="true" />
-                <element signature="e#13544#13550#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="368">
+              <caret line="693" column="78" selection-start-line="693" selection-start-column="78" selection-end-line="693" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iArenaFile/PHPScripts/SignInScript.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -40,8 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/iArenaFile/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+            <state relative-caret-position="85">
+              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -49,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/iArenaFile/js/FromHandling.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="53" column="41" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
+            <state relative-caret-position="357">
+              <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -69,6 +77,7 @@
     <findStrings>
       <find>socc</find>
       <find>soc</find>
+      <find>overflow</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -81,9 +90,9 @@
         <option value="$PROJECT_DIR$/iArenaFile/js/DBSearch.php" />
         <option value="$PROJECT_DIR$/iArenaFile/PHPScripts/DBSearch.php" />
         <option value="$PROJECT_DIR$/iArenaFile/PHPScripts/SignUpScript.php" />
+        <option value="$PROJECT_DIR$/iArenaFile/PHPScripts/SignInScript.php" />
         <option value="$PROJECT_DIR$/iArenaFile/css/main.css" />
         <option value="$PROJECT_DIR$/iArenaFile/loginiArena.html" />
-        <option value="$PROJECT_DIR$/iArenaFile/PHPScripts/SignInScript.php" />
         <option value="$PROJECT_DIR$/iArenaFile/js/FromHandling.js" />
       </list>
     </option>
@@ -100,7 +109,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -135,6 +143,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -183,18 +192,19 @@
       <workItem from="1541115208593" duration="5575000" />
       <workItem from="1541191006393" duration="2949000" />
       <workItem from="1541201544397" duration="2181000" />
-      <workItem from="1541211830389" duration="10175000" />
+      <workItem from="1541211830389" duration="10357000" />
+      <workItem from="1541288321673" duration="3534000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36500000" />
+    <option name="totallyTimeSpent" value="40216000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24552846" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.16070008" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -251,47 +261,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/iArenaFile/PHPScripts/DBSearch.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iArenaFile/PHPScripts/SignUpScript.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iArenaFile/PHPScripts/SignInScript.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="391">
+          <caret line="23" column="4" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/iArenaFile/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        <state relative-caret-position="85">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iArenaFile/PHPScripts/SignUpScript.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iArenaFile/PHPScripts/SignInScript.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/iArenaFile/loginiArena.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="671" column="110" selection-start-line="671" selection-start-column="110" selection-end-line="671" selection-end-column="110" />
-          <folding>
-            <element signature="e#13538#13544#1" expanded="true" />
-            <element signature="e#13544#13550#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="368">
+          <caret line="693" column="78" selection-start-line="693" selection-start-column="78" selection-end-line="693" selection-end-column="78" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/iArenaFile/js/FromHandling.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="53" column="41" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
+        <state relative-caret-position="357">
+          <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
         </state>
       </provider>
     </entry>
