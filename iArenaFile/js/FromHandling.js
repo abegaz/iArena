@@ -1,9 +1,30 @@
 var signup = $("[name = signupform]");
 var usernamelookup;
 var signintest;
+var pwerr = $('#pwerr');
+var signinerr = $('#signinerr');
+var usrnameerr = $('#usrnameerr');
+var loginbtn = $('#loginbutton');
+var signupbtn = $('#signupbutton');
+
+loginbtn.on("mouseover", function () {
+    loginbtn.css("background-color", "#2C9AB7")
+});
+
+loginbtn.on("mouseout", function () {
+    loginbtn.css("background-color", "#52bad5")
+});
+
+signupbtn.on("mouseover", function () {
+    signupbtn.css("background-color", "#2C9AB7")
+});
+
+signupbtn.on("mouseout", function () {
+    signupbtn.css("background-color", "#52bad5")
+});
 
 function usernamesearch() {
-    $('#usrnameerr').html("");
+    usrnameerr.html("");
     var myinput = $("#username").val();
     console.log(myinput);
     $.ajax({
@@ -17,7 +38,7 @@ function usernamesearch() {
             if (temp === "true") {
                 console.log("database contains this usertname");
                 usernamelookup = true;
-                $('#usrnameerr').html("username already in use");
+                usrnameerr.html("username already in use");
             } else if (temp === "false") {
                 console.log("database does not contain this username");
                 usernamelookup = false;
@@ -51,11 +72,11 @@ function loginsearch() {
             if (temp === "true") {
                 console.log("Sign in success");
                 signintest = true;
-                $('#signinerr').html("");
+                signinerr.html("");
             } else if (temp === "false") {
                 console.log("Sign in fail");
                 signintest = false;
-                $('#signinerr').html("username or password is incorrect");
+                signinerr.html("username or password is incorrect");
             }
 
         },
@@ -69,13 +90,13 @@ function loginsearch() {
  * @return {boolean}
  */
 function ValidateSignUpForm() {
-    $('#pwerr').html("");
+    pwerr.html("");
     if ($('#password').val() === $('#confirmpassword').val() && usernamelookup === false) {
-        $('#pwerr').html("passwords match");
+        pwerr.html("passwords match");
         signup.attr('action', 'PHPScripts/SignUpScript.php');
         return true;
     } else {
-        $('#pwerr').html("passwords do not match");
+        pwerr.html("passwords do not match");
         return false;
     }
 }
