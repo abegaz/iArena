@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+
+div.a {
+	text-align: center;
+    }
+    
+div.b { background-color: #52bad5;
+ 	}
+h1 {color: darkblue;}
+h2 {color: darkblue;}
+
+
+body  {
+    background-color: ;
+}
+* {
+    box-sizing: border-box;
+}
+
+
+.column {
+    float: left;
+    width: 33.3%;
+    padding: 10px;
+    background-color:#52bad5;
+
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column4 {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    background-color:#52bad5;
+}
+
+.column2 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    background-color: #52bad5;
+}
+
+</style>
+</head>
+<body>
+
+<div class="a">
+<h1>Schedule of Games</h1>
+
+<br>
+<div class="b"><p><b>Next game: <br>teamA <br>vs <br>teamB <br>on Month Date, Year 00:00 AM EST</b></p></div>
+<br>
+
+
+<h2>Group Stage</h2>
+
+
+<div class="row">
+  <div class="column">
+    <h2>Round 1</h2>
+    <p><b>teamA vs. teamB </b></p>
+    <p>00:00 EST 00/00/00</p>
+    <p><b>teamA vs. teamB </b></p>
+    <p>00:00 EST 00/00/00</p>
+    <p><b>teamA vs. teamB </b></p>
+    <p>00:00 EST 00/00/00</p>
+    <p><b>teamA vs. teamB</b> </p>
+    <p>00:00 EST 00/00/00</p>
+    <p><b>teamA vs. teamB</b></p>
+    <p>00:00 EST 00/00/00</p>
+    <p><b>teamA vs. teamB</b> </p>
+    <p>00:00 EST 00/00/00</p>
+    <p><b>teamA vs. teamB</b></p>
+    <p>00:00 EST 00/00/00</p>
+    <p><b>teamA vs. teamB</b></p>
+    <p>00:00 EST 00/00/00</p>
+  </div>
+  <div class="column">
+    <h2>Round 2</h2>
+        <p><b>teamA vs. teamB </b></p>
+    <p>00:00 EST 00/00/00</p>
+    <p><b>teamA vs. teamB </b></p>
+    <p>00:00 EST 00/00/00</p>
+    <p><b>teamA vs. teamB </b></p>
+    <p>00:00 EST 00/00/00</p>
+    <p><b>teamA vs. teamB</b> </p>
+    <p>00:00 EST 00/00/00</p>
+    <p><b>teamA vs. teamB</b></p>
+    <p>00:00 EST 00/00/00</p>
+    <p><b>teamA vs. teamB</b> </p>
+    <p>00:00 EST 00/00/00</p>
+    <p><b>teamA vs. teamB</b></p>
+    <p>00:00 EST 00/00/00</p>
+    <p><b>teamA vs. teamB</b></p>
+    <p>00:00 EST 00/00/00</p>
+  </div>
+  <div class="column">
+    <h2>Round 3</h2>
+        <p><b>teamA vs. teamB </b></p>
+    <p>00:00 EST 00/00/00</p>
+    <p><b>teamA vs. teamB </b></p>
+    <p>00:00 EST 00/00/00</p>
+    <p><b>teamA vs. teamB </b></p>
+    <p>00:00 EST 00/00/00</p>
+    <p><b>teamA vs. teamB</b> </p>
+    <p>00:00 EST 00/00/00</p>
+    <p><b>teamA vs. teamB</b></p>
+    <p>00:00 EST 00/00/00</p>
+    <p><b>teamA vs. teamB</b> </p>
+    <p>00:00 EST 00/00/00</p>
+    <p><b>teamA vs. teamB</b></p>
+    <p>00:00 EST 00/00/00</p>
+    <p><b>teamA vs. teamB</b></p>
+    <p>00:00 EST 00/00/00</p>
+  </div>
+  <div class="column">
+    <h2>Round 4</h2>
+    <p><b>teamA vs. teamB </b></p>
+    <p>00:00 EST 00/00/00</p>
+    <p><b>teamA vs. teamB </b></p>
+    <p>00:00 EST 00/00/00</p>
+    <p><b>teamA vs. teamB </b></p>
+    <p>00:00 EST 00/00/00</p>
+    <p><b>teamA vs. teamB</b> </p>
+    <p>00:00 EST 00/00/00</p>
+    <p><b>teamA vs. teamB</b></p>
+    <p>00:00 EST 00/00/00</p>
+    <p><b>teamA vs. teamB</b> </p>
+    <p>00:00 EST 00/00/00</p>
+    <p><b>teamA vs. teamB</b></p>
+    <p>00:00 EST 00/00/00</p>
+    <p><b>teamA vs. teamB</b></p>
+    <p>00:00 EST 00/00/00</p>
+  </div>
+  <div class="column">
+    <h2>Round 5</h2>
+    <p><b>teamA vs. teamB </b></p>
+    <p>00:00 EST 00/00/00</p>
+    <p><b>teamA vs. teamB </b></p>
+    <p>00:00 EST 00/00/00</p>
+    <p><b>teamA vs. teamB </b></p>
+    <p>00:00 EST 00/00/00</p>
+    <p><b>teamA vs. teamB</b> </p>
+    <p>00:00 EST 00/00/00</p>
+    <p><b>teamA vs. teamB</b></p>
+    <p>00:00 EST 00/00/00</p>
+    <p><b>teamA vs. teamB</b> </p>
+    <p>00:00 EST 00/00/00</p>
+    <p><b>teamA vs. teamB</b></p>
+    <p>00:00 EST 00/00/00</p>
+    <p><b>teamA vs. teamB</b></p>
+    <p>00:00 EST 00/00/00</p>
+    </div>
+  <div class="column">
+    <h2>Round 6</h2>
+    <p><b>teamA vs. teamB </b></p>
+    <p>00:00 EST 00/00/00</p>
+    <p><b>teamA vs. teamB </b></p>
+    <p>00:00 EST 00/00/00</p>
+    <p><b>teamA vs. teamB </b></p>
+    <p>00:00 EST 00/00/00</p>
+    <p><b>teamA vs. teamB</b> </p>
+    <p>00:00 EST 00/00/00</p>
+    <p><b>teamA vs. teamB</b></p>
+    <p>00:00 EST 00/00/00</p>
+    <p><b>teamA vs. teamB</b> </p>
+    <p>00:00 EST 00/00/00</p>
+    <p><b>teamA vs. teamB</b></p>
+    <p>00:00 EST 00/00/00</p>
+    <p><b>teamA vs. teamB</b></p>
+    <p>00:00 EST 00/00/00</p>
+  </div>
+</div>
+
+
+<h2>Round of Sixteen</h2>
+
+
+<div class="row">
+  <div class="column4">
+  <p><b>teamA vs team B</b></p>
+  <p>00:00 EST 00/00/00</p>
+  </div>
+  
+  <div class="column4">
+  <p><b>teamA vs team B</b></p>
+  <p>00:00 EST 00/00/00</p>
+  </div>
+  
+    <div class="column4">
+  <p><b>teamA vs team B</b></p>
+  <p>00:00 EST 00/00/00</p>
+  </div>
+  
+    <div class="column4">
+  <p><b>teamA vs team B</b></p>
+  <p>00:00 EST 00/00/00</p>
+  </div>
+
+<div class="row">
+    <div class="column4">
+  <p><b>teamA vs team B</b></p>
+  <p>00:00 EST 00/00/00</p>
+  </div>
+  
+    <div class="column4">
+  <p><b>teamA vs team B</b></p>
+  <p>00:00 EST 00/00/00</p>
+  </div>
+  
+    <div class="column4">
+  <p><b>teamA vs team B</b></p>
+  <p>00:00 EST 00/00/00</p>
+  </div>
+  
+    <div class="column4">
+  <p><b>teamA vs team B</b></p>
+  <p>00:00 EST 00/00/00</p>
+  </div>
+ </div>
+
+ 
+ <h2>Quarter Finals</h2>
+ 
+ <div class="row">
+  <div class="column4">
+  <p><b>teamA vs teamB</b></p>
+  <p>00:00 EST 00/00/00</p> 
+  </div>
+  
+    <div class="column4">
+  <p><b>teamA vs teamB</b></p>
+  <p>00:00 EST 00/00/00</p> 
+  </div>
+  
+    <div class="column4">
+  <p><b>teamA vs teamB</b></p>
+  <p>00:00 EST 00/00/00</p> 
+  </div>
+  
+    <div class="column4">
+  <p><b>teamA vs teamB</b></p>
+  <p>00:00 EST 00/00/00</p> 
+  </div>
+</div>
+
+<h2> Semi-Finals</h2>
+
+ <div class="row">
+  <div class="column2">
+  <p><b>teamA vs teamB</b></p>
+  <p>00:00 EST 00/00/00</p> 
+  </div>
+  
+    <div class="column2">
+  <p><b>teamA vs teamB</b></p>
+  <p>00:00 EST 00/00/00</p> 
+  </div>
+</div>
+
+<h2>Play Offs</h2>
+<div class="b">
+<p><b>teamA vs teamB</b></p>
+<p>00:00 EST 00/00/00</p>
+</div>
+
+<br>
+
+<h2>Final</h2>
+<div class="b">
+<p><b>teamA vs teamB</b></p>
+<p>00:00 EST 00/00/00</p>
+</div>
+</div>
+
+</body>
+</html>
+
+
