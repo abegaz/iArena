@@ -29,7 +29,7 @@ function usernamesearch() {
     console.log(myinput);
     $.ajax({
         type: "POST",
-        url: "PHPScripts/DBSearch.php",
+        url: "../PHPScripts/DBSearch.php",
         data: {myinput},
         success: function (result) {
             console.log(result);
@@ -63,7 +63,7 @@ function loginsearch() {
     console.log(validateusrname);
     $.ajax({
         type: "POST",
-        url: "PHPScripts/SignInScript.php",
+        url: "../PHPScripts/SignInScript.php",
         data: {validateusrname, validatepw},
         success: function (result) {
             console.log(result);
@@ -93,7 +93,7 @@ function ValidateSignUpForm() {
     pwerr.html("");
     if ($('#password').val() === $('#confirmpassword').val() && usernamelookup === false) {
         pwerr.html("passwords match");
-        signup.attr('action', 'PHPScripts/SignUpScript.php');
+        signup.attr('action', '../PHPScripts/SignUpScript.php');
         return true;
     } else {
         pwerr.html("passwords do not match");
