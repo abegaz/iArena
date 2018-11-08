@@ -26,6 +26,6 @@
         echo "</table>";
     }
 
-    ?>
+?>
 </body>
 </html>
