@@ -1,37 +1,31 @@
 <!DOCTYPE html>
 <html>
 <body>
-<h2>Here I am!</h2>
-<?php
+	<h2>Here I am!</h2>
+    <?php
 
-$host = "localhost";
-$dbusername = "root";
-$dbpassword = "";
-$dbname = "iarenadatabase";
+    $host = "localhost";
+    $dbusername = "root";
+    $dbpassword = "";
+    $dbname = "iarenadatabase";
 
-$conn = new mysqli($host, $dbusername, $dbpassword, $dbname);
+    $conn = new mysqli($host, $dbusername, $dbpassword, $dbname);
 
-if (mysqli_connect_error()) {
-    die('Connect Error (' . mysqli_connect_errno()) . ')' . mysqli_connect_error();
-}
+    if (mysqli_connect_error()) {
+        die('Connect Error (' . mysqli_connect_errno()) . ')' . mysqli_connect_error();
+    } else {
+        $sql_object = mysqli_query($conn, "SELECT * FROM teams ORDER BY RAND()");
+        $rows = mysqli_num_rows($sql_object);
 
-else {
-	$sql_object = mysqli_query($conn, "SELECT teamname FROM teams ORDER BY RAND()");
+//	echo $sql_object;
 
-	echo $sql_object;
-	
-	$index = 1;	
-		while ($row = mysqli_fetch_object($sql_object)) {
-			
-			echo $index;
-			echo ". "
-			echo $sql_object;
-			echo ""
+        echo "<table>";
+        while ($rows = mysqli_fetch_array($sql_object)) {
+            echo "<tr><td>" . ($rows['teamname']) . "</td></tr>";
+        }
+        echo "</table>";
+    }
 
-			$index = $index + 1;
-		}
-}
-
-?>
+    ?>
 </body>
 </html>
