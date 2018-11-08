@@ -2,8 +2,20 @@
     color: #DB1A1D;
 }
 
-#teambox {
+#teambox1 {
     background-color: black;
     width: 20px;
     height: 20px;
+    text-align: left;
+    float: left;
+    margin: 2px;
+}
+#teambox2 {
+    background-color: blue;
+    width: 20px;
+    height: 20px;
+    text-align: left;
+    display: block;
+    float: left;
+    margin: 2px;
 }
