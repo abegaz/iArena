@@ -23,6 +23,7 @@
 				if($teamCounter%4 == 0 && $divisionCount != 0){
 					echo "</table>";
 					$divisionCount = $divisionCount + 1;
+					echo "<div id="teambox"></div>";
 					echo "<h2>Division ".$divisionCount."</h2>";
 					echo "<table>";
 					echo "<tr><td>" . ($rows['teamname']) . "</td></tr>";
