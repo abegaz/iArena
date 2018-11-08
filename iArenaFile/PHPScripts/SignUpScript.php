@@ -12,7 +12,7 @@ $password = filter_input(INPUT_POST, 'password');
 
 $host = "localhost";
 $dbusername = "root";
-$dbpassword = "iarena3300";
+$dbpassword = "";
 $dbname = "iarenadatabase";
 
 $conn = new mysqli($host, $dbusername, $dbpassword, $dbname);
