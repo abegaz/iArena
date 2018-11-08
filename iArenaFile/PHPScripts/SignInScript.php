@@ -6,7 +6,7 @@ $check;
 
 $host = "localhost";
 $dbusername = "root";
-$dbpassword = "iarena3300";
+$dbpassword = "";
 $dbname = "iarenadatabase";
 
 $conn = new mysqli($host, $dbusername, $dbpassword, $dbname);
