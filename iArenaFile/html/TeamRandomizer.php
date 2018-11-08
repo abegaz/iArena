@@ -5,7 +5,7 @@
 
     $host = "localhost";
     $dbusername = "root";
-    $dbpassword = "";
+    $dbpassword = "iarena3300";
     $dbname = "iarenadatabase";
 
     $conn = new mysqli($host, $dbusername, $dbpassword, $dbname);
@@ -25,18 +25,18 @@
 					$divisionCount = $divisionCount + 1;
 					echo "<h2>Division ".$divisionCount."</h2>";
 					echo "<table>";
-					echo "<tr><td>" . ($rows['teamname']) . "</td></tr>";
+					echo "<tr><td><div id=teambox1></div><div id=teambox2></div>" . ($rows['teamname']) . "</td></tr>";
 					$teamCounter = $teamCounter + 1;
 					
 				} elseif ($teamCounter%4 == 0 && $divisionCount == 0){
 					$divisionCount = $divisionCount + 1;
 					echo "<h2>Division ".$divisionCount."</h2>";
 					echo "<table>";
-					echo "<tr><td>" . ($rows['teamname']) . "</td></tr>";
+					echo "<tr><td><div id=teambox1></div><div id=teambox2></div>" . ($rows['teamname']) . "</td></tr>";
 					$teamCounter = $teamCounter + 1;}
 				
 				else {
-					echo "<tr><td>" . ($rows['teamname']) . "</td></tr>";
+					echo "<tr><td><div id=teambox1></div><div id=teambox2></div>" . ($rows['teamname']) . "</td></tr>";
 					$teamCounter = $teamCounter + 1;
 				}
 			}
