@@ -20,15 +20,11 @@ else {
 
 		$index = 1;	
 			while ($row = mysqli_fetch_object($sql_object)) {
-				
-				echo $index,". ",$row->teamname;
-				echo "<br>";
-				
+
 				$index = $index + 1;
 			}
 }
-	
-exit;
+
 ?>
 </body>
 </html>
