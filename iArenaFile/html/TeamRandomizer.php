@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <body>
-	<h2>Here I am!</h2>
     <?php
 
     $host = "localhost";
@@ -17,13 +16,31 @@
         $sql_object = mysqli_query($conn, "SELECT * FROM teams ORDER BY RAND()");
         $rows = mysqli_num_rows($sql_object);
 
-//	echo $sql_object;
-
-        echo "<table>";
-        while ($rows = mysqli_fetch_array($sql_object)) {
-            echo "<tr><td>" . ($rows['teamname']) . "</td></tr>";
-        }
-        echo "</table>";
+		$teamCounter=0;
+		$divisionCount = 0;
+			echo "<table>";
+			while ($rows = mysqli_fetch_array($sql_object)) {
+				if($teamCounter%4 == 0 && $divisionCount != 0){
+					echo "</table>";
+					$divisionCount = $divisionCount + 1;
+					echo "<h2>Division ".$divisionCount."</h2>";
+					echo "<table>";
+					echo "<tr><td>" . ($rows['teamname']) . "</td></tr>";
+					$teamCounter = $teamCounter + 1;
+					
+				} elseif ($teamCounter%4 == 0 && $divisionCount == 0){
+					$divisionCount = $divisionCount + 1;
+					echo "<h2>Division ".$divisionCount."</h2>";
+					echo "<table>";
+					echo "<tr><td>" . ($rows['teamname']) . "</td></tr>";
+				$teamCounter = $teamCounter + 1;}
+				
+				else {
+					echo "<tr><td>" . ($rows['teamname']) . "</td></tr>";
+					$teamCounter = $teamCounter + 1;
+				}
+			}
+			echo "</table>";
     }
 
 ?>
