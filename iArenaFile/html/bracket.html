@@ -567,7 +567,7 @@ button {
 </head>
 <body>
 <!-- Main Container -->
-
+ 
 <div class="container">  
     <header> <a href="">
 		<h4 class="logo"><strong>iARENA </strong></h4>
@@ -576,7 +576,7 @@ button {
 			<ul>
 				<li><a href="homepage.html">HOME</a></li>
 				<li><a href="about.html">ABOUT</a></li>
-				<li><a href="bracket.html"></a>BRACKETS</li>
+				<li><a href="bracket.html">BRACKETS</a></li>
 				<li><a href="loginiArena.html">SIGN UP!</a></li>
 			</ul>
 		</nav>
@@ -584,38 +584,46 @@ button {
     <section class="about" id="about">
     <header>
     <div class="loginsection">
-      <center><strong><h1>GET TO KNOW YOUR FAVORITE TEAMS!</h1></strong></center>
+		<center><strong><h1>SEE THE CURRENT BRACKET!</h1></strong></center>
+		<?php
+		if (!empty($_GET['act'])) {
+			$host = "localhost";
+			$dbusername = "root";
+			$dbpassword = "";
+			$dbname = "iarenadatabase";
+
+			$conn = new mysqli($host, $dbusername, $dbpassword, $dbname);
+
+			if (mysqli_connect_error()) {
+				die('Connect Error (' . mysqli_connect_errno()) . ')' . mysqli_connect_error();
+			}
+			else {				
+				$sql_object = mysqli_query($conn, "SELECT teamname FROM teams ORDER BY RAND()");
+			$index = 1;	
+				while ($row = mysqli_fetch_object($sql_object)) {					
+					echo $index;
+					echo ". ";
+					echo $row->teamname;
+					echo "<br>";					
+					$index = $index + 1;
+			}
+			mysqli_free_result($sql_object);			
+		}	
+		} else {
+		?>
+		<form action="bracket.html" method="get">
+			<input type="hidden" name="act" value="run">
+			<input type="submit" value="Create a Bracket!">
+		</form>
+		<?php
+			}
+		?>
     </div>
     </header>
 
     <div class="container">
-		<div class="row">
-    <div class="column">
-    <img src="chinalogo.png" alt="China" style="width:100%">
-    </div>
-  <div class="column">
-    <img src="veslogo.png" alt="Venezual" style="width:100%">
-  </div>
-	<div class="column">
-		<img src="mexlogo.jpg" alt="Mexico" style="width:100%">
+	
 	</div>
-		<div class="column">
-			<img src="germlogo.png" alt="Germany" style="width:100%">
-		</div>
-			<div class="column">
-    <img src="itlogo.jpg" alt="Itaily" style="width:100%">
-	</div>
-			<div class="column">
-    <img src="saflogo.gif" alt="South Africa" style="width:100%">
-	</div>
-			<div class="column">
-    <img src="ruslogo.png" alt="Russia" style="width:100%">
-	</div>
-			<div class="column">
-    <img src="auslogo.png" alt="Australia" style="width:100%">
-	</div>
-
-</div>
     
 	</section>
   
