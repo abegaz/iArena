@@ -18,11 +18,18 @@ if (mysqli_connect_error()) {
 else {
 	$sql_object = mysqli_query($conn, "SELECT teamname FROM teams ORDER BY RAND()");
 
-		$index = 1;	
-			while ($row = mysqli_fetch_object($sql_object)) {
+	echo $sql_object;
+	
+	$index = 1;	
+		while ($row = mysqli_fetch_object($sql_object)) {
+			
+			echo $index;
+			echo ". "
+			echo $sql_object;
+			echo ""
 
-				$index = $index + 1;
-			}
+			$index = $index + 1;
+		}
 }
 
 ?>
