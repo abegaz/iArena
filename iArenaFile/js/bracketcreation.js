@@ -12,6 +12,13 @@ bracketbtn.on('click', function () {
         url: "TeamRandomizer.php",
         success: function (result) {
             bracketcontainer.html(result);
+            $( "tr" ).not("thead tr").hover(
+                function() {
+                    $( this ).addClass( "is-selected" );
+                }, function() {
+                    $( this ).removeClass( "is-selected" );
+                }
+            );
         },
         error: function () {
             alert("error");
