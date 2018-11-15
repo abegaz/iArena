@@ -4,7 +4,6 @@
     <list default="true" id="ca69c5fd-9686-4a27-b3b7-cdeadc77445a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/iArenaFile/css/bulma.css" beforeDir="false" afterPath="$PROJECT_DIR$/iArenaFile/css/bulma.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iArenaFile/html/bracket.html" beforeDir="false" afterPath="$PROJECT_DIR$/iArenaFile/html/bracket.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/iArenaFile/css/bulma.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="290" column="1" lean-forward="true" selection-start-line="290" selection-start-column="1" selection-end-line="290" selection-end-column="1" />
+            <state relative-caret-position="-20280">
+              <caret line="3587" lean-forward="true" selection-start-line="3587" selection-end-line="3587" />
             </state>
           </provider>
         </entry>
@@ -226,12 +225,12 @@
       <workItem from="1541705600777" duration="2668000" />
       <workItem from="1541724092919" duration="649000" />
       <workItem from="1542135213941" duration="5434000" />
-      <workItem from="1542304089518" duration="2782000" />
+      <workItem from="1542304089518" duration="3293000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62247000" />
+    <option name="totallyTimeSpent" value="62758000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
@@ -367,8 +366,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/iArenaFile/css/bulma.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="290" column="1" lean-forward="true" selection-start-line="290" selection-start-column="1" selection-end-line="290" selection-end-column="1" />
+        <state relative-caret-position="-20280">
+          <caret line="3587" lean-forward="true" selection-start-line="3587" selection-end-line="3587" />
         </state>
       </provider>
     </entry>
