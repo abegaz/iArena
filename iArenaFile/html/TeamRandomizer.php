@@ -22,6 +22,7 @@
 			while ($rows = mysqli_fetch_array($sql_object)) {
                 $color1 = $rows['color1'];
                 $color2 = $rows['color2'];
+				$color3 = $rows['color3'];
 				if($teamCounter%4 == 0 && $divisionCount != 0){
 					echo "</tbody>";
 					echo "</table>";
@@ -30,7 +31,7 @@
                     echo "<thead>";
 					echo "<tr><th>Division ".$divisionCount."</th><th>Wins</th><th>Losses</th><th>Draws</th><th>Total Points</th></tr>";
 					echo "</thead><tbody>";
-					echo "<tr><td><div class=$color1></div><div class=$color2></div><div id=teambox3></div>" . ($rows['teamname']) . "</td><td>".($rows['wins'])."</td><td>".($rows['losses'])."</td><td>".($rows['draws'])."</td><td>".($rows['TotalPoints'])."</td></tr>";
+					echo "<tr><td><div class=$color1></div><div class=$color2></div><div class=$color3></div>" . ($rows['teamname']) . "</td><td>".($rows['wins'])."</td><td>".($rows['losses'])."</td><td>".($rows['draws'])."</td><td>".($rows['TotalPoints'])."</td></tr>";
 					$teamCounter = $teamCounter + 1;
 				} elseif ($teamCounter%4 == 0 && $divisionCount == 0){
 					$divisionCount = $divisionCount + 1;
