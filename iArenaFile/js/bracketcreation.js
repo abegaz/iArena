@@ -1,5 +1,6 @@
 var bracketbtn = $('#bracketbtn');
 var bracketcontainer = $('#bracketcontainer');
+var resetbtn = $('#resetbtn');
 
 $("#bracketform").submit(function (e) {
     e.preventDefault();
@@ -24,4 +25,8 @@ bracketbtn.on('click', function () {
             alert("error");
         }
     });
+});
+
+resetbtn.on('click', function () {
+
 });
