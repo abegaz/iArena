@@ -27,7 +27,7 @@
                 $color2 = $rows['color2'];
                 $color3 = $rows['color3'];
                 $check = $rows['creationcheck'];
-                if ($check == 1) {
+                if ($check == 0) {
                     if ($teamCounter % 4 == 0 && $divisionCount != 0) {
                         echo "</tbody>";
                         echo "</table>";
@@ -50,6 +50,18 @@
                         echo "<tr><td><div class=$color1></div><div class=$color2></div><div class=$color3></div>" . ($rows['teamname']) . "</td><td>" . ($rows['wins']) . "</td><td>" . ($rows['losses']) . "</td><td>" . ($rows['draws']) . "</td><td>" . ($rows['TotalPoints']) . "</td></tr>";
                         $teamCounter = $teamCounter + 1;
                     }
+
+                    $updatesql = "UPDATE teams SET creationcheck= 1 WHERE creationcheck = 0";
+
+                    if (mysqli_query($conn, $updatesql)) {
+                        echo "Record updated successfully";
+                    } else {
+                        echo "Error updating record: " . mysqli_error($conn);
+                    }
+
+                }
+                else {
+                	echo "table already exists";
                 }
             }
 			echo "<p class=$check>hello</p>";
