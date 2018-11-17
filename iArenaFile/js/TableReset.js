@@ -12,7 +12,17 @@ resetbtn.on('click', function () {
         type: "POST",
         url: "../PHPScripts/ResetDatabaseTableCheck.php",
         success: function (result) {
-            // bracketcontainer.html(result);
+            console.log("Reset database table check success");
+            $.ajax({
+                type: "POST",
+                url: "../PHPScripts/ResetGroupsScript.php",
+                success: function (result) {
+                    console.log("delete group data success");
+                },
+                error: function () {
+                    alert("error");
+                }
+            });
         },
         error: function () {
             alert("error");
