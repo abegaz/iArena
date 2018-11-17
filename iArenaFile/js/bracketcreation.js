@@ -10,7 +10,7 @@ bracketbtn.on('click', function () {
     console.log("hello");
     $.ajax({
         type: "POST",
-        url: "TeamRandomizer.php",
+        url: "../PHPScripts/TeamRandomizer.php",
         success: function (result) {
             bracketcontainer.html(result);
             $( "tr" ).not("thead tr").hover(

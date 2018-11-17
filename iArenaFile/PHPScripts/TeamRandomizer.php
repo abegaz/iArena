@@ -28,7 +28,7 @@
                 $color3 = $rows['color3'];
                 $check = $rows['creationcheck'];
                 if ($check == 0) {
-                	echo "check is equal to 0 ... $check";
+//                	echo "check is equal to 0 ... $check";
                     if ($teamCounter % 4 == 0 && $divisionCount != 0) {
                         echo "</tbody>";
                         echo "</table>";
@@ -55,14 +55,14 @@
                     $updatesql = "UPDATE teams SET creationcheck= 1 WHERE creationcheck = 0";
 
                     if (mysqli_query($conn, $updatesql)) {
-                        echo "Record updated successfully";
+//                        echo "Record updated successfully";
                     } else {
                         echo "Error updating record: " . mysqli_error($conn);
                     }
 
                 }
                 else {
-                	echo "table already exists";
+//                	echo "table already exists";
                 }
             }
 			echo "</table>";
