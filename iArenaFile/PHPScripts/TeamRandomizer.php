@@ -57,9 +57,22 @@
                 $draws = $rows['draws'];
                 $losses = $rows['losses'];
                 $totalpoints = $rows['TotalPoints'];
+                $color1data = $rows['color1'];
+	            $color2data = $rows['color2'];
+	            $color3data = $rows['color3'];
 //                echo "at insert";
-                $sql = "INSERT INTO grouptables (teamname, wins, draws, loses, totalpoints) 
-              VALUES('$teamname', '$wins', '$draws', '$losses', '$totalpoints')";
+                $check = 1;
+                $sql = "INSERT INTO grouptables (teamname, wins, draws, loses, totalpoints, color1, color2, color3, creationcheck) 
+              VALUES('$teamname', '$wins', '$draws', '$losses', '$totalpoints', '$color1data', '$color2data', '$color3data', '$check')";
+
+
+                $updatesql = "UPDATE teams SET creationcheck= 1 WHERE creationcheck = 0";
+
+                if (mysqli_query($conn, $updatesql)) {
+//                        echo "Record updated successfully";
+                } else {
+                    echo "Error updating record: " . mysqli_error($conn);
+                }
 
                 if ($conn->query($sql) === true)
                 {
@@ -69,15 +82,6 @@
                 {
                     echo "ERROR: Could not able to execute $sql. "
                         .$conn->error;
-                }
-
-
-                $updatesql = "UPDATE teams SET creationcheck= 1 WHERE creationcheck = 0";
-
-                if (mysqli_query($conn, $updatesql)) {
-//                        echo "Record updated successfully";
-                } else {
-                    echo "Error updating record: " . mysqli_error($conn);
                 }
 
             } else {

@@ -6,6 +6,8 @@ $("#bracketform").submit(function (e) {
     e.preventDefault();
 });
 
+window.onload = load;
+
 bracketbtn.on('click', function () {
     console.log("hello");
     $.ajax({
@@ -27,6 +29,22 @@ bracketbtn.on('click', function () {
     });
 });
 
-resetbtn.on('click', function () {
-
-});
+function load() {
+    $.ajax({
+        type: "POST",
+        url: "../PHPScripts/SavedBracketTest.php",
+        success: function (result) {
+            bracketcontainer.html(result);
+            $( "tr" ).not("thead tr").hover(
+                function() {
+                    $( this ).addClass( "is-selected" );
+                }, function() {
+                    $( this ).removeClass( "is-selected" );
+                }
+            );
+        },
+        error: function () {
+            alert("error");
+        }
+    });
+}
