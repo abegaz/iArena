@@ -10,6 +10,14 @@
 
     $conn = new mysqli($host, $dbusername, $dbpassword, $dbname);
 
+    $updatesql2 = "TRUNCATE TABLE grouptables";
+
+    if (mysqli_query($conn, $updatesql2)) {
+//                echo "Record updated successfully";
+    } else {
+        echo "Error updating record: " . mysqli_error($conn);
+    }
+
     $check = -1;
 
     if (mysqli_connect_error()) {
@@ -19,6 +27,8 @@
         $sql_object = mysqli_query($conn, "SELECT * FROM teams ORDER BY RAND()");
         $rows = mysqli_num_rows($sql_object);
 
+
+
         $teamCounter = 0;
         $divisionCount = 0;
         echo "<table class='table'>";
@@ -27,7 +37,7 @@
             $color2 = $rows['color2'];
             $color3 = $rows['color3'];
             $check = $rows['creationcheck'];
-            if ($check == 0) {
+//            if ($check == 0) {
 //                	echo "check is equal to 0 ... $check";
                 if ($teamCounter % 4 == 0 && $divisionCount != 0) {
                     echo "</tbody>";
@@ -84,10 +94,8 @@
                         .$conn->error;
                 }
 
-            } else {
-//                	echo "table already exists";
             }
-        }
+//        }
         echo "</table>";
         echo "<br>";
     }
