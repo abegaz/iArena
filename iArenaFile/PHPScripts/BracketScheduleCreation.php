@@ -32,6 +32,8 @@ $group6array = array();
 $group7array = array();
 $group8array = array();
 
+
+
 for ($i = 0; $i < sizeof($teamsarray); $i++) {
     if ($i<4) {
         $group1array[$i] = $teamsarray[$i];
