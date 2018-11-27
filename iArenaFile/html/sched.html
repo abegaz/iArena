@@ -681,6 +681,10 @@
 			background-color: #52bad5;
 		}
 
+		.scoreform {
+			color: black;
+		}
+
 
 	</style>
 	<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
@@ -719,23 +723,13 @@
 					<button class="button is-small is-primary" id="oneGame" onclick="runOneGame()">One Game</button>
 					<button class="button is-small is-primary" id="groupStage" onclick="runGroupStage()">Group Stage</button>
 					<button class="button is-small is-primary" id="semiFinals" onclick="runSemiFinals()">Semi-Finals</button>
-
-					<form action="">
+					<p class="scoreform">
 						Team 1: <input type="text" name="Team1" id="team1form">
 						Team 2: <input type="text" name="Team2" id="team2form">
 						Team 1 Score: <input type="text" name="Team1Score" id="team1Score">
 						Team 2 Score: <input type="text" name="Team2Score" id="team2Score">
-						<input type="submit" value="Submit" id="teamscoresubmitbtn">
-					</form>
-
-					<div class="a">
-						<h2>Schedule of Games</h2>
-
-						<br>
-						<div class="b"><p><b>Next game: <br>teamA <br>vs <br>teamB <br>on Month Date, Year 00:00 AM EST</b>
-						</p></div>
-						<br>
-					</div>
+						<button type="submit" value="Submit" id="teamscoresubmitbtn">Submit</button>
+					</p>
 
 					<h2>Group Stage</h2>
 

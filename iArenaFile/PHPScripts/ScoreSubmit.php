@@ -11,4 +11,4 @@ $dbname = "iarenadatabase";
 
 $conn = new mysqli($host, $dbusername, $dbpassword, $dbname);
 
-mysqli_query($conn, "UPDATE bracketschedule WHERE Team1 = '$team1name' AND Team2 = '$team2name' SET Team1Score = '$team1score' AND SET Team2Score = '$team2score' ");
+mysqli_query($conn, "UPDATE bracketschedule SET Team1Score = '$team1score', Team2Score = '$team2score' WHERE Team1 = '$team1name' AND Team2 = '$team2name' ");
