@@ -38,27 +38,42 @@ for ($i = 0; $i < sizeof($teamsarray); $i++) {
     if ($i<4) {
         $group1array[$i] = $teamsarray[$i];
         echo $group1array[$i]['teamname'] ;
+		echo "<br>";
     }
     if ($i<8) {
         $group2array[$i] = $teamsarray[$i];
+		echo $group2array[$i]['teamname'] ;
+		echo "<br>";
     }
     if ($i<12) {
-        $group2array[$i] = $teamsarray[$i];
+        $group3array[$i] = $teamsarray[$i];
+		echo $group3array[$i]['teamname'] ;
+		echo "<br>";
     }
     if ($i<16) {
-        $group2array[$i] = $teamsarray[$i];
+        $group4array[$i] = $teamsarray[$i];
+		echo $group4array[$i]['teamname'] ;
+		echo "<br>";
     }
     if ($i<20) {
-        $group2array[$i] = $teamsarray[$i];
+        $group5array[$i] = $teamsarray[$i];
+		echo $group5array[$i]['teamname'] ;
+		echo "<br>";
     }
     if ($i<24) {
-        $group2array[$i] = $teamsarray[$i];
+        $group6array[$i] = $teamsarray[$i];
+		echo "<br>";
+		echo $group6array[$i]['teamname'] ;
     }
     if ($i<28) {
-        $group2array[$i] = $teamsarray[$i];
+        $group7array[$i] = $teamsarray[$i];
+		echo $group7array[$i]['teamname'] ;
+		echo "<br>";
     }
     if ($i<32) {
-        $group2array[$i] = $teamsarray[$i];
+        $group8array[$i] = $teamsarray[$i];
+		echo $group8array[$i]['teamname'] ;
+		echo "<br>";
     }
 }
 
