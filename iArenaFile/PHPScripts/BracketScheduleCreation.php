@@ -16,12 +16,6 @@ while($row = mysqli_fetch_assoc($sql_object)){
 
     $teamsarray[] = $row;
 }
-//print_r($array); // show all array data
-
-//for($i = 0; $i < sizeof($teamsarray); $i++ ) {
-////    echo $teamsarray[$i]['teamname'];
-//    echo "<br>";
-//}
 
 $group1array = array();
 $group2array = array();
