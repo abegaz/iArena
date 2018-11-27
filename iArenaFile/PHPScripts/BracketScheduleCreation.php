@@ -32,6 +32,7 @@ $group6array = array();
 $group7array = array();
 $group8array = array();
 
+$groupsarray = array();
 
 
 for ($i = 0; $i < sizeof($teamsarray); $i++) {
