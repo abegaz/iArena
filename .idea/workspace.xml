@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca69c5fd-9686-4a27-b3b7-cdeadc77445a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/iArenaFile/PHPScripts/SchedulePull.php" beforeDir="false" afterPath="$PROJECT_DIR$/iArenaFile/PHPScripts/SchedulePull.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iArenaFile/html/sched.html" beforeDir="false" afterPath="$PROJECT_DIR$/iArenaFile/html/sched.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iArenaFile/js/ScheduleCreation.js" beforeDir="false" afterPath="$PROJECT_DIR$/iArenaFile/js/ScheduleCreation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iArenaFile/PHPScripts/BracketScheduleCreation.php" beforeDir="false" afterPath="$PROJECT_DIR$/iArenaFile/PHPScripts/BracketScheduleCreation.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,8 +28,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/iArenaFile/html/sched.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-448">
+            <state relative-caret-position="-584">
               <caret line="697" column="20" selection-start-line="697" selection-start-column="20" selection-end-line="697" selection-end-column="20" />
+              <folding>
+                <element signature="e#18491#18497#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -38,8 +40,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/iArenaFile/PHPScripts/SchedulePull.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="289">
+              <caret line="17" column="90" lean-forward="true" selection-start-line="17" selection-start-column="90" selection-end-line="17" selection-end-column="90" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/iArenaFile/PHPScripts/BracketScheduleCreation.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iArenaFile/PHPScripts/SignUpScript.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="32" column="19" lean-forward="true" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -47,26 +67,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/iArenaFile/js/bracketcreation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="113">
               <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/iArenaFile/PHPScripts/BracketScheduleCreation.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/iArenaFile/PHPScripts/TeamRandomizer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1275">
-              <caret line="75" column="136" lean-forward="true" selection-start-line="75" selection-start-column="136" selection-end-line="75" selection-end-column="136" />
+            <state relative-caret-position="289">
+              <caret line="26" column="79" selection-start-line="26" selection-start-column="79" selection-end-line="26" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -103,6 +114,7 @@
       <find>teamname</find>
       <find>Total</find>
       <find>a</find>
+      <find>31</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -135,10 +147,11 @@
         <option value="$PROJECT_DIR$/iArenaFile/html/about.html" />
         <option value="$PROJECT_DIR$/iArenaFile/js/main.js" />
         <option value="$PROJECT_DIR$/iArenaFile/html/ArgenTeam.html" />
-        <option value="$PROJECT_DIR$/iArenaFile/PHPScripts/BracketScheduleCreation.php" />
         <option value="$PROJECT_DIR$/iArenaFile/html/sched.html" />
         <option value="$PROJECT_DIR$/iArenaFile/js/ScheduleCreation.js" />
         <option value="$PROJECT_DIR$/iArenaFile/PHPScripts/SchedulePull.php" />
+        <option value="$PROJECT_DIR$/iArenaFile/PHPScripts/BracketScheduleCreation.php" />
+        <option value="$PROJECT_DIR$/iArenaFile/PHPScripts/test.php" />
       </list>
     </option>
   </component>
@@ -264,18 +277,18 @@
       <workItem from="1543042027929" duration="32000" />
       <workItem from="1543042085103" duration="4135000" />
       <workItem from="1543050348907" duration="2335000" />
-      <workItem from="1543324678076" duration="7985000" />
+      <workItem from="1543324678076" duration="14227000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98922000" />
+    <option name="totallyTimeSpent" value="105164000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.16706444" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34128878" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -328,7 +341,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/iArenaFile/loginiArena.html" />
     <entry file="file://$PROJECT_DIR$/iArenaFile/js/bracketpage.js" />
-    <entry file="file://$PROJECT_DIR$/iArenaFile/PHPScripts/Test.php" />
     <entry file="file://$PROJECT_DIR$/iArenaFile/html/homepage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -369,13 +381,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iArenaFile/PHPScripts/SignUpScript.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -442,27 +447,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iArenaFile/PHPScripts/BracketScheduleCreation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iArenaFile/PHPScripts/SchedulePull.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iArenaFile/js/bracketcreation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/iArenaFile/js/ScheduleCreation.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -472,15 +456,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/iArenaFile/html/sched.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-448">
+        <state relative-caret-position="-584">
           <caret line="697" column="20" selection-start-line="697" selection-start-column="20" selection-end-line="697" selection-end-column="20" />
+          <folding>
+            <element signature="e#18491#18497#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iArenaFile/js/bracketcreation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/iArenaFile/PHPScripts/TeamRandomizer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="75" column="136" lean-forward="true" selection-start-line="75" selection-start-column="136" selection-end-line="75" selection-end-column="136" />
+        <state relative-caret-position="289">
+          <caret line="26" column="79" selection-start-line="26" selection-start-column="79" selection-end-line="26" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iArenaFile/PHPScripts/SchedulePull.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="90" lean-forward="true" selection-start-line="17" selection-start-column="90" selection-end-line="17" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iArenaFile/PHPScripts/SignUpScript.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="32" column="19" lean-forward="true" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iArenaFile/PHPScripts/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="80" selection-start-line="11" selection-start-column="80" selection-end-line="11" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iArenaFile/PHPScripts/BracketScheduleCreation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
         </state>
       </provider>
     </entry>
