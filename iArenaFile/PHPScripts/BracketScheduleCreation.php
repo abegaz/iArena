@@ -62,15 +62,6 @@ for ($i = 0; $i < sizeof($teamsarray); $i++) {
     }
 }
 
-$group1floor = 0;
-$group1floor = 4;
-$group1floor = 8;
-$group1floor = 12;
-$group1floor = 16;
-$group1floor = 20;
-$group1floor = 24;
-$group1floor = 28;
-
 
 
 
