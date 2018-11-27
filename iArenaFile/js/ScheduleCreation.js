@@ -13,7 +13,7 @@ function load() {
         url: "../PHPScripts/SchedulePull.php",
         async: false,
         success: function (result) {
-            alert(result);
+            // alert(result);
             listitem = result;
             $("#test").html(listitem);
         },
