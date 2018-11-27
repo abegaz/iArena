@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca69c5fd-9686-4a27-b3b7-cdeadc77445a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/iArenaFile/html/ArgenTeam.html" beforeDir="false" afterPath="$PROJECT_DIR$/iArenaFile/html/ArgenTeam.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iArenaFile/html/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/iArenaFile/html/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iArenaFile/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/iArenaFile/js/main.js" afterDir="false" />
-    </list>
+    <list default="true" id="ca69c5fd-9686-4a27-b3b7-cdeadc77445a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -271,16 +267,15 @@
       <workItem from="1542669796695" duration="4032000" />
       <workItem from="1543042027929" duration="32000" />
       <workItem from="1543042085103" duration="4135000" />
-      <workItem from="1543050348907" duration="2233000" />
+      <workItem from="1543050348907" duration="2335000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90835000" />
+    <option name="totallyTimeSpent" value="90937000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16706444" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
