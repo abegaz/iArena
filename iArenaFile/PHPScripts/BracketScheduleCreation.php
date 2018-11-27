@@ -6,7 +6,7 @@ $dbname = "iarenadatabase";
 
 $conn = new mysqli($host, $dbusername, $dbpassword, $dbname);
 
-$randomnumber = rand(1,4);
+$randomnumber = rand(0,3);
 
 $sql_object = mysqli_query($conn, "SELECT teamname FROM grouptables");
 
@@ -18,10 +18,10 @@ while($row = mysqli_fetch_assoc($sql_object)){
 }
 //print_r($array); // show all array data
 
-for($i = 0; $i < sizeof($teamsarray); $i++ ) {
-    echo $teamsarray[$i]['teamname'];
-    echo "<br>";
-}
+//for($i = 0; $i < sizeof($teamsarray); $i++ ) {
+////    echo $teamsarray[$i]['teamname'];
+//    echo "<br>";
+//}
 
 $group1array = array();
 $group2array = array();
@@ -43,22 +43,34 @@ for ($i = 0; $i < sizeof($teamsarray); $i++) {
         $group2array[$i] = $teamsarray[$i];
     }
     if ($i<12) {
-        $group2array[$i] = $teamsarray[$i];
+        $group3array[$i] = $teamsarray[$i];
     }
     if ($i<16) {
-        $group2array[$i] = $teamsarray[$i];
+        $group4array[$i] = $teamsarray[$i];
     }
     if ($i<20) {
-        $group2array[$i] = $teamsarray[$i];
+        $group5array[$i] = $teamsarray[$i];
     }
     if ($i<24) {
-        $group2array[$i] = $teamsarray[$i];
+        $group6array[$i] = $teamsarray[$i];
     }
     if ($i<28) {
-        $group2array[$i] = $teamsarray[$i];
+        $group7array[$i] = $teamsarray[$i];
     }
     if ($i<32) {
-        $group2array[$i] = $teamsarray[$i];
+        $group8array[$i] = $teamsarray[$i];
     }
 }
+
+$group1floor = 0;
+$group1floor = 4;
+$group1floor = 8;
+$group1floor = 12;
+$group1floor = 16;
+$group1floor = 20;
+$group1floor = 24;
+$group1floor = 28;
+
+
+
 
