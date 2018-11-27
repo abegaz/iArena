@@ -5,6 +5,19 @@ window.onload = function () {
         load();
         list[i].innerText=listitem;
     }
+
+    $.ajax({
+        type: "POST",
+        url: "../PHPScripts/playedreset.php",
+        async: false,
+        success: function (result) {
+
+        },
+        error: function () {
+            alert("error");
+        }
+    });
+
 };
 
 function load() {
@@ -13,7 +26,7 @@ function load() {
         url: "../PHPScripts/SchedulePull.php",
         async: false,
         success: function (result) {
-            alert(result);
+            // alert(result);
             listitem = result;
             $("#test").html(listitem);
         },
