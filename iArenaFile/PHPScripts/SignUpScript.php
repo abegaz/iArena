@@ -8,7 +8,7 @@
 $firstname = filter_input(INPUT_POST, 'firstname');
 $lastname = filter_input(INPUT_POST, 'lastname');
 $username = filter_input(INPUT_POST, 'username');
-$password = filter_input(INPUT_POST, 'password');
+$rawpassword = filter_input(INPUT_POST, 'password');
 
 $host = "localhost";
 $dbusername = "root";
@@ -19,13 +19,16 @@ $conn = new mysqli($host, $dbusername, $dbpassword, $dbname);
 
 if (mysqli_connect_error()) {
     die('Connect Error (' . mysqli_connect_errno()) . ')' . mysqli_connect_error();
-} else {
+} else { 
+
+	$passwordhash = hash('sha256', $rawpassword);
+
     $sql = "INSERT INTO iarenadbtable (firstname, lastname, username, password)
-    values ('$firstname', '$lastname', '$username', '$password')";
+    values ('$firstname', '$lastname', '$username', '$passwordhash')";
     if ($conn->query($sql)) {
         echo "new record inserted";
     } else {
-        echo "Eror" . $sql . "<br>" . $conn->error;
+        echo "Error" . $sql . "<br>" . $conn->error;
     }
     $conn->close();
 }
