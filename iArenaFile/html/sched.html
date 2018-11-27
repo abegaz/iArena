@@ -718,7 +718,9 @@
 
 				<div class="container" id="schedulecontainer">
 
-					<button class="button is-small is-primary" id="schedulecreationbtn">Create Group Schedule</button>
+					<button class="button is-small is-primary" id="oneGame" onclick="runOneGame()">One Game</button>
+					<button class="button is-small is-primary" id="groupStage" onclick="runGroupStage()">Group Stage</button>
+					<button class="button is-small is-primary" id="semiFinals" onclick="runSemiFinals()">Semi-Finals</button>
 
 					<div class="a">
 						<h2>Schedule of Games</h2>
@@ -755,196 +757,148 @@
 						<div class="column1">
 							<h2>Round 2</h2>
 							<p><b>teamA vs. teamB </b></p>
-							<p>00:00 EST 00/00/00</p>
+							<p>09:00 EST 06/16/2014</p>
 							<p><b>teamA vs. teamB </b></p>
-							<p>00:00 EST 00/00/00</p>
+							<p>12:00 EST 06/16/2014</p>
 							<p><b>teamA vs. teamB </b></p>
-							<p>00:00 EST 00/00/00</p>
+							<p>15:00 EST 06/17/2014</p>
 							<p><b>teamA vs. teamB</b></p>
-							<p>00:00 EST 00/00/00</p>
+							<p>18:00 EST 06/17/2014</p>
 							<p><b>teamA vs. teamB</b></p>
-							<p>00:00 EST 00/00/00</p>
+							<p>09:00 EST 06/18/2014</p>
 							<p><b>teamA vs. teamB</b></p>
-							<p>00:00 EST 00/00/00</p>
+							<p>12:00 EST 06/18/2014</p>
 							<p><b>teamA vs. teamB</b></p>
-							<p>00:00 EST 00/00/00</p>
+							<p>15:00 EST 06/19/2014</p>
 							<p><b>teamA vs. teamB</b></p>
-							<p>00:00 EST 00/00/00</p>
+							<p>18:00 EST 06/19/2014</p>
 						</div>
 						<div class="column1">
 							<h2>Round 3</h2>
 							<p><b>teamA vs. teamB </b></p>
-							<p>00:00 EST 00/00/00</p>
+							<p>09:00 EST 06/20/2014</p>
 							<p><b>teamA vs. teamB </b></p>
-							<p>00:00 EST 00/00/00</p>
+							<p>12:00 EST 06/20/2014</p>
 							<p><b>teamA vs. teamB </b></p>
-							<p>00:00 EST 00/00/00</p>
+							<p>15:00 EST 06/21/2014</p>
 							<p><b>teamA vs. teamB</b></p>
-							<p>00:00 EST 00/00/00</p>
+							<p>18:00 EST 06/21/2014</p>
 							<p><b>teamA vs. teamB</b></p>
-							<p>00:00 EST 00/00/00</p>
+							<p>09:00 EST 06/22/2014</p>
 							<p><b>teamA vs. teamB</b></p>
-							<p>00:00 EST 00/00/00</p>
+							<p>12:00 EST 06/22/2014</p>
 							<p><b>teamA vs. teamB</b></p>
-							<p>00:00 EST 00/00/00</p>
+							<p>15:00 EST 06/23/2014</p>
 							<p><b>teamA vs. teamB</b></p>
-							<p>00:00 EST 00/00/00</p>
+							<p>18:00 EST 06/23/2014</p>
 						</div>
 						<div class="column1">
 							<h2>Round 4</h2>
 							<p><b>teamA vs. teamB </b></p>
-							<p>00:00 EST 00/00/00</p>
+							<p>09:00 EST 06/24/2014</p>
 							<p><b>teamA vs. teamB </b></p>
-							<p>00:00 EST 00/00/00</p>
+							<p>12:00 EST 06/24/2014</p>
 							<p><b>teamA vs. teamB </b></p>
-							<p>00:00 EST 00/00/00</p>
+							<p>15:00 EST 06/25/2014</p>
 							<p><b>teamA vs. teamB</b></p>
-							<p>00:00 EST 00/00/00</p>
+							<p>18:00 EST 06/25/2014</p>
 							<p><b>teamA vs. teamB</b></p>
-							<p>00:00 EST 00/00/00</p>
+							<p>09:00 EST 06/26/2014</p>
 							<p><b>teamA vs. teamB</b></p>
-							<p>00:00 EST 00/00/00</p>
+							<p>12:00 EST 06/26/2014</p>
 							<p><b>teamA vs. teamB</b></p>
-							<p>00:00 EST 00/00/00</p>
+							<p>15:00 EST 06/27/2014</p>
 							<p><b>teamA vs. teamB</b></p>
-							<p>00:00 EST 00/00/00</p>
+							<p>18:00 EST 06/27/2014</p>
 						</div>
 						<div class="column1">
 							<h2>Round 5</h2>
 							<p><b>teamA vs. teamB </b></p>
-							<p>00:00 EST 00/00/00</p>
+							<p>09:00 EST 06/28/2014</p>
 							<p><b>teamA vs. teamB </b></p>
-							<p>00:00 EST 00/00/00</p>
+							<p>12:00 EST 06/28/2014</p>
 							<p><b>teamA vs. teamB </b></p>
-							<p>00:00 EST 00/00/00</p>
+							<p>15:00 EST 06/29/2014</p>
 							<p><b>teamA vs. teamB</b></p>
-							<p>00:00 EST 00/00/00</p>
+							<p>18:00 EST 06/29/2014</p>
 							<p><b>teamA vs. teamB</b></p>
-							<p>00:00 EST 00/00/00</p>
+							<p>09:00 EST 06/30/2014</p>
 							<p><b>teamA vs. teamB</b></p>
-							<p>00:00 EST 00/00/00</p>
+							<p>12:00 EST 06/30/2014</p>
 							<p><b>teamA vs. teamB</b></p>
-							<p>00:00 EST 00/00/00</p>
+							<p>15:00 EST 07/01/2014</p>
 							<p><b>teamA vs. teamB</b></p>
-							<p>00:00 EST 00/00/00</p>
+							<p>18:00 EST 07/01/2014</p>
 						</div>
 						<div class="column1">
 							<h2>Round 6</h2>
 							<p><b>teamA vs. teamB </b></p>
-							<p>00:00 EST 00/00/00</p>
+							<p>09:00 EST 07/02/2014</p>
 							<p><b>teamA vs. teamB </b></p>
-							<p>00:00 EST 00/00/00</p>
+							<p>12:00 EST 07/02/2014</p>
 							<p><b>teamA vs. teamB </b></p>
-							<p>00:00 EST 00/00/00</p>
+							<p>15:00 EST 07/03/2014</p>
 							<p><b>teamA vs. teamB</b></p>
-							<p>00:00 EST 00/00/00</p>
+							<p>18:00 EST 07/03/2014</p>
 							<p><b>teamA vs. teamB</b></p>
-							<p>00:00 EST 00/00/00</p>
+							<p>09:00 EST 07/04/2014</p>
 							<p><b>teamA vs. teamB</b></p>
-							<p>00:00 EST 00/00/00</p>
+							<p>12:00 EST 07/04/2014</p>
 							<p><b>teamA vs. teamB</b></p>
-							<p>00:00 EST 00/00/00</p>
+							<p>15:00 EST 07/05/2014</p>
 							<p><b>teamA vs. teamB</b></p>
-							<p>00:00 EST 00/00/00</p>
+							<p>18:00 EST 07/05/2014</p>
 						</div>
 					</div>
 
 
-					<h2>Round of Sixteen</h2>
+					<h2>Semi-Finals</h2>
 
 
 					<div class="row1">
 						<div class="column4">
 							<p><b>teamA vs team B</b></p>
-							<p>00:00 EST 00/00/00</p>
+							<p>12:00 EST 07/07/2014</p>
 						</div>
 
 						<div class="column4">
 							<p><b>teamA vs team B</b></p>
-							<p>00:00 EST 00/00/00</p>
+							<p>12:00 EST 07/07/2014</p>
 						</div>
 
 						<div class="column4">
 							<p><b>teamA vs team B</b></p>
-							<p>00:00 EST 00/00/00</p>
+							<p>12:00 EST 07/08/2014</p>
 						</div>
 
 						<div class="column4">
 							<p><b>teamA vs team B</b></p>
-							<p>00:00 EST 00/00/00</p>
+							<p>12:00 EST 07/08/2014</p>
 						</div>
-
-						<div class="row1">
-							<div class="column4">
-								<p><b>teamA vs team B</b></p>
-								<p>00:00 EST 00/00/00</p>
-							</div>
-
-							<div class="column4">
-								<p><b>teamA vs team B</b></p>
-								<p>00:00 EST 00/00/00</p>
-							</div>
-
-							<div class="column4">
-								<p><b>teamA vs team B</b></p>
-								<p>00:00 EST 00/00/00</p>
-							</div>
-
-							<div class="column4">
-								<p><b>teamA vs team B</b></p>
-								<p>00:00 EST 00/00/00</p>
-							</div>
+					</div>
+					<div class="row1">
+						<div class="column4">
+							<p><b>teamA vs team B</b></p>
+							<p>12:00 EST 07/09/2014</p>
 						</div>
-
-
-						<h2>Quarter Finals</h2>
-
-						<div class="row1">
 							<div class="column4">
-								<p><b>teamA vs teamB</b></p>
-								<p>00:00 EST 00/00/00</p>
-							</div>
-
-							<div class="column4">
-								<p><b>teamA vs teamB</b></p>
-								<p>00:00 EST 00/00/00</p>
-							</div>
-
-							<div class="column4">
-								<p><b>teamA vs teamB</b></p>
-								<p>00:00 EST 00/00/00</p>
-							</div>
-
-							<div class="column4">
-								<p><b>teamA vs teamB</b></p>
-								<p>00:00 EST 00/00/00</p>
-							</div>
+							<p><b>teamA vs team B</b></p>
+							<p>12:00 EST 07/09/2014</p>
 						</div>
-
-						<h2> Semi-Finals</h2>
-
-						<div class="row1">
-							<div class="column2">
-								<p><b>teamA vs teamB</b></p>
-								<p>00:00 EST 00/00/00</p>
-							</div>
-
-							<div class="column2">
-								<p><b>teamA vs teamB</b></p>
-								<p>00:00 EST 00/00/00</p>
-							</div>
+							<div class="column4">
+							<p><b>teamA vs team B</b></p>
+							<p>12:00 EST 07/10/2014</p>
 						</div>
-
-						<h2>Play Offs</h2>
-						<div class="b">
-							<p><b>teamA vs teamB</b></p>
-							<p>00:00 EST 00/00/00</p>
+						<div class="column4">
+							<p><b>teamA vs team B</b></p>
+							<p>12:00 EST 07/10/2014</p>
 						</div>
-						<br>
+					</div>
+
 						<h2>Final</h2>
-						<div class="b">
+							<div class="b">
 							<p><b>teamA vs teamB</b></p>
-							<p>00:00 EST 00/00/00</p>
+							<p>12:00 EST 07/13/2014</p>
 						</div>
 					</div>
 
@@ -961,4 +915,3 @@
 	<!-- Main Container Ends -->
 </body>
 </html>
-
