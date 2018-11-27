@@ -6,7 +6,7 @@ $dbname = "iarenadatabase";
 
 $conn = new mysqli($host, $dbusername, $dbpassword, $dbname);
 
-$randomnumber = rand(1,4);
+$randomnumber = rand(0,3);
 
 $sql_object = mysqli_query($conn, "SELECT teamname FROM grouptables");
 
@@ -17,6 +17,11 @@ while($row = mysqli_fetch_assoc($sql_object)){
     $teamsarray[] = $row;
 }
 //print_r($array); // show all array data
+
+//for($i = 0; $i < sizeof($teamsarray); $i++ ) {
+////    echo $teamsarray[$i]['teamname'];
+//    echo "<br>";
+//}
 
 $group1array = array();
 $group2array = array();
