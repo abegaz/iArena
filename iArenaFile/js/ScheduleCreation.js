@@ -35,3 +35,30 @@ function load() {
         }
     });
 }
+
+var teamscorebtn = $("#teamscoresubmitbtn");
+var team1name = $("#team1form").val();
+var team2name = $("#team2form").val();
+var team1score = $("#team1Score").val();
+var team2score = $("#team2Score").val();
+
+console.log(team1name);
+
+teamscorebtn.on('click', function () {
+    teamscoresubmit();
+});
+
+function teamscoresubmit() {
+
+    $.ajax({
+        type: "POST",
+        url: "../PHPScripts/ScoreSubmit.php",
+        data: {team1name, team2name, team1score, team2score},
+        success: function (result) {
+
+        },
+        error: function () {
+            alert("error");
+        }
+    });
+}
