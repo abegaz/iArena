@@ -58,12 +58,12 @@ for ($i = 0; $i < sizeof($teamsarray); $i++) {
 
 $divisionArray = array($group1array,$group2array,$group3array,$group4array,$group5array,$group6array,$group7array,$group8array);
 
-echo print_r($divisionArray[0][0]['teamname']);
-echo print_r($divisionArray[0][1]['teamname']);
+print_r($divisionArray[0][0]['teamname']);
+print_r($divisionArray[0][1]['teamname']);
 echo print_r($divisionArray[0][2]['teamname']);
 echo print_r($divisionArray[0][3]['teamname']);
 echo print_r($divisionArray[1][0]['teamname']);
 
-$newconn = 
+echo print_r($group1array);
 
 ?>
