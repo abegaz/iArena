@@ -69,4 +69,6 @@ echo print_r($divisionArray[0][2]['teamname']);
 echo print_r($divisionArray[0][3]['teamname']);
 echo print_r($divisionArray[1][0]['teamname']);
 
+$newconn = 
+
 ?>
