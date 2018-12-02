@@ -1,5 +1,6 @@
 var listitem;
 window.onload = function () {
+
     var list = document.getElementsByClassName('matchteams');
     for (var i = 0; i < list.length; i++) {
         load();

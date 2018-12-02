@@ -14,6 +14,16 @@ bracketbtn.on('click', function () {
         type: "POST",
         url: "../PHPScripts/TeamRandomizer.php",
         success: function (result) {
+            $.ajax({
+                type: "POST",
+                url: "../PHPScripts/BracketScheduleCreation.php",
+                async: false,
+                success: function (result) {
+                },
+                error: function () {
+                    alert("error");
+                }
+            });
             bracketcontainer.html(result);
             $( "tr" ).not("thead tr").hover(
                 function() {
